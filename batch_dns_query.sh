@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Description: Batch DNS Checker
+# Description: Ridiculously simple Batch DNS Checker. Just shows how lazy I am.
 # Author: Steven Marchant
 # Notes: Add your own list of DNS server IPs next to 'dns_servers'
 #        add the fqdn of the server you want to query next to 'query'.
