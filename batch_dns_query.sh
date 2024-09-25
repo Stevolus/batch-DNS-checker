@@ -5,10 +5,10 @@
 # Notes: Expects there to be a text file named domains.txt consisting of the domains
 # you want to query. The servers variable is to change the DNS servers to any custom ones you may want to test.
 
-servers='1.1.1.1 8.8.8.8'
+nsserver='8.8.8.8'
 
 while read p; do
-  nslookup "$p" "$servers"
+  nslookup "$p" "$nsserver"
 done <domains.txt
 
 
